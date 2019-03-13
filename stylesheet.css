@@ -9,7 +9,12 @@ h1 {
   font-weight: 400;
 }
 
-
+h2 {
+  font-family: 'Roboto Mono', monospace;;
+  font-size: 2em;
+  color: white;
+  font-weight: 400;
+}
 
 
 
