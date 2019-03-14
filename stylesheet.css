@@ -7,16 +7,16 @@ body {
 h1 {
   font-family: 'Space Mono', monospace;
   font-size: 3.5em;
-  color: black;
-  font-weight: bold;
+  color: white;
+  font-weight: regular;
   margin-top: : 0.5%;
   margin-top: : 0.5%;
-  margin-left: 40px;
+  background-color: NAVY;
 }
 
 h2{
   font-family: 'Roboto Mono', monospace;
-  color: black;
+  color: WHITE;
   font-size: 2.5em;
   font-weight: regular;
 }
@@ -29,33 +29,35 @@ h3 {
 }
 
 a {
-text-decoration: none;
+text-decoration-line: underline;
 }
+
 a:link {
-color: Black;
+color: navy;
 border-bottom: 1px solid Red;
 }
 a:visited {
-color: Purple;
-border-bottom: 1px solid Gainsboro;
+color: navy;
+border-bottom: 1px solid navy;
 }
 a:hover {
-color: SeaGreen;
-border-bottom: 1px solid Black;
+color: yellow;
+border-bottom: 5px solid navy;
 }
 
 
 div{
-  color: black;
+  color: navy;
   margin-top: 50px;
   margin-bottom: 50px;
+  background-color: RED;
 }
 
 ul {
   list-style: none;
+  background-color: LIGHT-BLUE;
 }
 
 li:hover {
   font-style: italic;
-  color: blue;
 }
