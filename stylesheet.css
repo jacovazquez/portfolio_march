@@ -1,9 +1,8 @@
-body {
-  background-image: url("./img/348158.png")
-}
 
-img {
-  opacity: 0.5
+
+body {
+
+  background-image:url("./img/348158_opacidad.png");
 }
 
 h1 {
@@ -20,7 +19,14 @@ h3 {
   font-weight: bold;
 }
 
+.links {
+  color: blue
+}
 
+li:hover {
+  font-style: italic;
+  color: red;
+}
 
 
 
