@@ -7,28 +7,30 @@ body {
 
 h1 {
   font-family: 'Roboto Mono', monospace;;
-  font-size: 4em;
+  font-size: 2em;
   color: white;
   font-weight: bold;
 }
 
 h3 {
   font-family: 'Roboto Mono', monospace;;
-  font-size: 2em;
+  font-size: 1.5  em;
   color: white;
   font-weight: bold;
 }
 
 .links {
-  color: blue
+  color: white;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  font-size: 1em;
 }
 
 li:hover {
   font-style: italic;
-  color: red;
+  color: blue;
+  background:white;
 }
-
-
 
 
 
