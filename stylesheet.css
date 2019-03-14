@@ -14,7 +14,7 @@ h1 {
 
 h2{
   font-family: 'Roboto Mono', monospace;
-  color: WHITE;
+  color: white;
   font-size: 2em;
   font-weight: regular;
 }
@@ -39,7 +39,7 @@ color: navy;
 border-bottom: 1px solid navy;
 }
 a:hover {
-color: yellow;
+color: red;
 border-bottom: 5px solid navy;
 }
 
