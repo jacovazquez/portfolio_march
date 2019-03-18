@@ -6,17 +6,17 @@ body {
 
 h1 {
   font-family: 'Space Mono', monospace;
-  font-size: 6vh;
+  font-size: 5vh;
   color: white;
   font-weight: regular;
   animation-name: jello;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 
 h2{
   font-family: 'Roboto Mono', monospace;
   color: white;
-  font-size: 4vh;
+  font-size: 3vh;
   font-weight: regular;
 }
 
@@ -29,6 +29,7 @@ h3 {
 
 a {
 text-decoration-line: underline;
+text-decoration-style: wavy;
 }
 
 a:link {
@@ -40,8 +41,8 @@ color: white;
 border-bottom: 1px solid white;
 }
 a:hover {
-color: red;
-border-bottom: 5px solid white;
+color: blue;
+border-bottom: 2px solid white;
 }
 
 
@@ -59,7 +60,6 @@ li:hover {
   font-style: italic;
 
 }
-
 
 
 @-webkit-keyframes jello {
