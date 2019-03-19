@@ -49,6 +49,8 @@ border-bottom: 1px solid white;
 a:hover {
 color: blue;
 border-bottom: 2px solid white;
+cursor: url("./img/pixil-frame-azul_azul.ico");
+
 }
 
 
@@ -57,17 +59,17 @@ div{
   margin-top: 50px;
   margin-bottom: 80px;
   width: 50
-  cursor: url("./img/pixil-frame-azul.ico"), default;
-  
+  cursor: url("./img/pixil-frame-azul.ico");
+
 }
 
 ul {
   list-style: none;
 }
 
+
 li:hover {
   font-style: italic;
-
 }
 
 
