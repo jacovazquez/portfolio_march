@@ -1,8 +1,14 @@
+html {
+ cursor: url("./img/pixil-frame-azul.ico"), default;
+}
+
 body {
  background-image: url("./img/348158_opacidad.png");
  background-color: black;
  margin-left: 5%;
+ display: inline-block;
 }
+
 
 h1 {
   font-family: 'Space Mono', monospace;
@@ -50,6 +56,9 @@ div{
   color: white;
   margin-top: 50px;
   margin-bottom: 80px;
+  width: 50
+  cursor: url("./img/pixil-frame-azul.ico"), default;
+  
 }
 
 ul {
