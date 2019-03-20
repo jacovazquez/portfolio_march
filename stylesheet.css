@@ -2,13 +2,16 @@ html {
  cursor: url("./img/pixil-frame-azul.ico"), default;
 }
 
+.pointer {
+  cursor: url("./img/pixil-frame-azul_azul.ico");
+}
+
 body {
  background-image: url("./img/348158_opacidad.png");
  background-color: black;
  margin-left: 5%;
  display: inline-block;
 }
-
 
 h1 {
   font-family: 'Space Mono', monospace;
@@ -24,6 +27,7 @@ h2{
   color: white;
   font-size: 3vh;
   font-weight: regular;
+  cursor: url("./img/pixil-frame-azul_azul.ico");
 }
 
 h3 {
@@ -36,23 +40,30 @@ h3 {
 a {
 text-decoration-line: underline;
 text-decoration-style: wavy;
+cursor: url("./img/pixil-frame-azul_azul.ico");
 }
 
 a:link {
 color: white;
 border-bottom: 1px solid white;
+cursor: url("./img/pixil-frame-azul_azul.ico");
 }
+
 a:visited {
 color: white;
 border-bottom: 1px solid white;
+cursor: url("./img/pixil-frame-azul_azul.ico");
 }
+
 a:hover {
 color: blue;
 border-bottom: 2px solid white;
 cursor: url("./img/pixil-frame-azul_azul.ico");
-
 }
 
+h2:hover {
+  cursor: url("./img/pixil-frame-azul_azul.ico");
+}
 
 div{
   color: white;
@@ -67,9 +78,13 @@ ul {
   list-style: none;
 }
 
+li {
+  cursor: url("./img/pixil-frame-azul_azul.ico");
+}
 
 li:hover {
   font-style: italic;
+  cursor: cell;
 }
 
 
