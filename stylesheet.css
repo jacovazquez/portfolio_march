@@ -7,8 +7,8 @@ html {
 }
 
 body {
- background-image: url("./img/348158_opacidad.png");
- background-color: black;
+ background-image: url("./img/348158_opacidad.ng");
+ background-color: white;
  margin-left: 5%;
  display: inline-block;
 }
@@ -16,7 +16,7 @@ body {
 h1 {
   font-family: 'Space Mono', monospace;
   font-size: 5vh;
-  color: white;
+  color: blue;
   font-weight: regular;
   animation-name: jello;
   animation-duration: 3s;
@@ -24,7 +24,7 @@ h1 {
 
 h2{
   font-family: 'Roboto Mono', monospace;
-  color: white;
+  color: black;
   font-size: 3vh;
   font-weight: regular;
   cursor: url("./img/pixil-frame-azul_azul.ico");
@@ -33,7 +33,7 @@ h2{
 h3 {
   font-family: 'Roboto Mono', monospace;
   font-size: 2vh;
-  color: white;
+  color: gray;
   font-weight: regular;
 }
 
@@ -44,25 +44,26 @@ cursor: url("./img/pixil-frame-azul_azul.ico");
 }
 
 a:link {
-color: white;
+color: blue;
 border-bottom: 1px solid white;
 cursor: url("./img/pixil-frame-azul_azul.ico");
 }
 
 a:visited {
-color: white;
+color: blue;
 border-bottom: 1px solid white;
 cursor: url("./img/pixil-frame-azul_azul.ico");
 }
 
 a:hover {
-color: blue;
+color: red;
 border-bottom: 2px solid white;
 cursor: url("./img/pixil-frame-azul_azul.ico");
 }
 
 h2:hover {
   cursor: url("./img/pixil-frame-azul_azul.ico");
+  color: red;
 }
 
 div{
@@ -71,8 +72,8 @@ div{
   margin-bottom: 80px;
   width: 50
   cursor: url("./img/pixil-frame-azul.ico");
-
 }
+
 
 ul {
   list-style: none;
