@@ -8,14 +8,14 @@ html {
 
 body {
  background-color: white;
- margin-left: 5%;
+ margin-left: 2%;
  display: inline-block;
 }
 
 h1 {
   font-family: 'Space Mono', monospace;
   font-size: 5vh;
-  color: red;
+  color: black;
   font-weight: regular;
   animation-name: jello;
   animation-duration: 3s;
@@ -55,7 +55,7 @@ cursor: url("./img/pixil-frame-azul_azul.ico");
 
 a:hover {
 color: red;
-border-bottom: 2px solid white;
+border-bottom: 10px solid white;
 cursor: url("./img/pixil-frame-azul_azul.ico");
 }
 
@@ -67,7 +67,7 @@ h2:hover {
 div{
   color: white;
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   width: 50;
   cursor: url("./img/pixil-frame-azul.ico");
 }
