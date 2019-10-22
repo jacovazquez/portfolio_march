@@ -13,14 +13,14 @@ html {
 
 body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: left;
 }
 
 body {
  background-color: white;
  height: 100%;
  display: inline-block;
- align-items: center;
+ align-items: left;
 }
 
 h1 {
